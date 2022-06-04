@@ -11,63 +11,89 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="header">
-        <div class="logo-text">Header Logo</div>
-        <div class="link-text">
-            <ul>
-                <li>Link One</li>
-                <li>Link Two</li>
-                <li>Link Three</li>
-            </ul>
-        </div>
-    </div>
-    <div class="hero">
-        <div class="main-text">This website is about airbrushes</div>
-        <div class="hero-text">This is some text to fill the space for this section</div>
-        <img src="images/ECL350T-A1.jpeg" class="hero-image">
-    </div>
-
-    <div class="info">
-        <div></div>
-        <div class="container">
-            <div class="card">
-                <img src="images/ICM4502_CM-CPlus-A1_1000x732.jpeg">
-                <div class="text">This is a set of text</div>
-            </div>
-            <div class="card">
-                <img src="images/ICM350T-A1.jpeg">
-                <div class="text">This is a set of text</div>
-            </div>
-            <div class="card">
-                <img src="images/H4001_HP-CPlus-A1_670x304.jpeg">
-                <div class="text">This is a set of text</div>
-            </div>
-            <div class="card">
-                <img src="images/ECL350T-A1.jpeg">
-                <div class="text">This is a set of text</div>
+    <div class="wrapper" id="first">
+        <div class="header section">
+            <div class="logo-text">Header Logo</div>
+            <div class="link-text">
+                <ul>
+                    <li>Header Link One</li>
+                    <li>Header Link Two</li>
+                    <li>Header Link Three</li>
+                </ul>
             </div>
         </div>
     </div>
 
-    <div class="quotesection">
-        <div class="quote">This is an inpiring quote, or a testimonial from a customer.  Maybe it's just filling up space, or maybe people will read it.  Who knows?  All I know is that is looks nice.</div>
-        <div class="reference">-Thor, God of Thunder</div>
-    </div>
-
-    <div class="signup">
-        <div class="calltoaction">
-            <div class="left">
-               <div class="header">Call to action! It's time!</div>
-                <div class="text">Sign up for our product by clicking that button right over there!</div>
+    <div class="wrapper" id="second">
+        <div class="hero section">
+            <div class="hero-left">
+                <div class="title">This website is about airbrushes</div>
+                <div class="subtitle">This is some text to fill the space for this section</div>
+                <button class="button">Call now</button>
             </div>
-            <button class="button">Call now</button>
+            <div class="hero-right">
+                <img src="images/purple.webp" class="hero-image">
+            </div>    
+        </div>
+     </div>
+     
+     <div class="wrapper">
+        <div class="section" id="info">
+            <div class="heading">Some random heading</div>
+            <div class="container">
+                <div class="card">
+                    <div class="image-box">
+                        <img src="images/pink.jpeg">
+                    </div> 
+                    <div class="text">This is a set of text.  This is some more text.</div>
+                </div>
+                <div class="card">
+                    <div class="image-box">
+                        <img src="images/orange.jpeg">
+                    </div>
+                    <div class="text">This is a set of text.  This is some more text.</div>
+                </div>
+                
+                <div class="card">
+                    <div class="image-box">
+                        <img src="images/purple.webp">
+                    </div>
+                    <div class="text">This is a set of text.  This is some more text.</div>
+                </div>
+                <div class="card">
+                    <div class="image-box">
+                        <img src="images/green.webp">
+                    </div>
+                    <div class="text">This is a set of text.  This is some more text.</div>
+                </div>
+            </div>
+        </div>
+     </div>   
+
+     <div class="wrapper" id="quote-wrapper">
+        <div class="quotesection section">
+            <div class="quote">This is an inpiring quote, or a testimonial from a customer.  Maybe it's just filling up space, or maybe people will read it.  Who knows?  All I know is that is looks nice.</div>
+            <div class="reference">-Thor, God of Thunder</div>
         </div>
     </div>
 
-    <div class="footer">
-        <div>Copyright</div>
-    </div>
+    <div class="wrapper" >
+        <div class="signup section">
+            <div class="calltoaction">
+                <div class="left">
+                    <div class="header">Call to action! It's time!</div>
+                    <div class="text">Sign up for our product by clicking that button right over there!</div>
+                </div>
+                <button class="button">Call now</button>
+            </div>
+        </div>
+    </div>   
 
+    <div class="wrapper">
+        <div class="footer section">
+            <div>Copyright</div>
+        </div>
+    </div>    
 
 </body>
 </html>
